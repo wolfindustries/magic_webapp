@@ -1,5 +1,5 @@
 <?php
-require "/var/www/html/magic/flight/Flight.php";
+require "flight/Flight.php";
 require "shared/config.inc.php";
 require "shared/functions.php";
 
