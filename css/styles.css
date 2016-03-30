@@ -1,11 +1,54 @@
 /* CSS document */
 
-@import url(https://fonts.googleapis.com/css?family=Muli);
+/*@import url(https://fonts.googleapis.com/css?family=Muli);*/
 
 body {
 	margin:0;
 	padding:0;
 	font-family: 'Muli', sans-serif;
+}
+
+input, textarea, select {
+	font-family: 'Muli', sans-serif;
+	font-size:16px;
+	border:1px solid #ccc;
+	outline-color:#39f;
+	padding:8px;
+	margin:0 10px 10px 10px;
+	display:block;
+	border-radius:4px;
+	box-sizing:border-box;
+}
+
+button {
+	font-family: 'Muli', sans-serif;
+	font-size:16px;
+	background-color:#39f;
+	color:#fff;
+	padding:8px 16px;
+	display:block;
+	border-radius:4px;
+	display:block;
+	border:0;
+	cursor:pointer;
+}
+
+button.close {
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:30px;
+	height:30px;
+	text-align:center;
+	padding:0px !important;
+	background-color:none !important;
+	font-size:20px;
+}
+
+div.halfWidth {
+	width:36%;
+	float:left;
+	margin:7%;
 }
 
 div#modalOverlay {
@@ -16,6 +59,31 @@ div#modalOverlay {
 	height:100%;
 	background-color:rgba(0,0,0,0.4);
 	z-index:100;
+}
+
+div#modalOverlay div#modalContent {
+	width:800px;
+	height:400px;
+	background-color:#eee;
+	margin-left:-400px;
+	margin-top:-200px;
+	border:1px solid #333;
+	position:absolute;
+	top:30%;
+	left:50%;
+	box-shadow:0 0 5px 5px rgba(0,0,0,0.3);
+	border-radius:2px;
+}
+
+div#modalOverlay div#modalContent input {
+	width:100%;
+	margin:10px 0;
+}
+
+div#modalOverlay div#modalContent form button {
+	padding:8px;
+	float:right;
+	margin:10px 0;
 }
 
 div.widthWrapper {
