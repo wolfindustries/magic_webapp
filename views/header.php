@@ -10,7 +10,31 @@
 	</script>
 </head>
 <body>
-	<div id="modalOverlay"><div id="modalContent"></div></div>
+	<div id="modalOverlay">
+		<div id="modalContent">
+			<div id="loginForm">
+				<div class="halfWidth">
+					<button class="close">&Chi;</button>
+					<h3>Sign Up</h3>
+					<form>
+						<input type="text" name="login_newUsername" placeholder="enter a username" />
+						<input type="text" name="login_newEmail" placeholder="enter your email address" />
+						<input type="text" name="login_newPassword" placeholder="enter a password" />
+						<input type="text" name="login_confirmPassword" placeholder="confirm your password" />
+						<button id="login_signup">Sign Up</button>
+					</form>
+				</div>
+				<div class="halfWidth">
+					<h3>Log in</h3>
+					<form>
+						<input type="text" name="login_username" placeholder="username" />
+						<input type="text" name="login_password" placeholder="password" />
+						<button id="login_login">Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="pageHeader">
 		<div class="widthWrapper">
 			<div id="pageHeaderLogo"></div>
