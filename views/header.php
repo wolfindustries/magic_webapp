@@ -14,7 +14,7 @@
 		<div id="modalContent">
 			<div id="loginForm">
 				<div class="halfWidth">
-					<button class="close">&Chi;</button>
+					<div class="close" targetclose="loginForm" alt="Close window" title="Click to close this window"></div>
 					<h3>Sign Up</h3>
 					<form>
 						<input type="text" name="login_newUsername" placeholder="enter a username" />
@@ -57,7 +57,7 @@
 						</ul>
 					</li>
 					<li id="accountOptions">
-						<a href="">Login or Sign Up</a>
+						<a href="" onclick="showLoginModal()">Login or Sign Up</a>
 					</li>
 				</ul>
 			</nav>
