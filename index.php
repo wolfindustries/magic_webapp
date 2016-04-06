@@ -9,6 +9,26 @@ if(!isset($_SESSION)) {
 
 Flight::path(CLASS_PATH);
 
+Flight::route("/system",function() {
+	Flight::render("header.php");
+	Flight::render("footer.php");
+});
+
+Flight::route("/users",function() {
+	Flight::render("header.php");
+	Flight::render("footer.php");
+});
+
+Flight::route("/version",function() {
+	Flight::render("header.php");
+	Flight::render("footer.php");
+});
+
+Flight::route("/cards",function() {
+	Flight::render("header.php");
+	Flight::render("footer.php");
+});
+
 Flight::route("/", function(){
 	Flight::render("header.php");
 	Flight::render("footer.php");
