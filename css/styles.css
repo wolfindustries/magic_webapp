@@ -33,6 +33,30 @@ button {
 	cursor:pointer;
 }
 
+.hidden {
+	visibility: hidden;
+}
+
+.statusBlue {
+	background-color:#70BCFF;
+}
+
+.statusGreen {
+	background-color:#96D66F;
+}
+
+.statusYellow {
+	background-color:#F7F266;
+}
+
+.statusOrange {
+	background-color:#F99853;
+}
+
+.statusRed {
+	background-color:#F57049;
+}
+
 div.close {
 	position:absolute;
 	top:10px;
@@ -66,6 +90,7 @@ div#modalOverlay {
 	background-color:rgba(0,0,0,0.4);
 	z-index:100;
 	display:none;
+	background-image:url("../img/modal_bg.png");
 }
 
 div#modalOverlay div#modalContent {
@@ -84,6 +109,23 @@ div#modalOverlay div#modalContent div#loginForm {
 	left:50%;
 	box-shadow:0 0 5px 5px rgba(0,0,0,0.3);
 	border-radius:2px;
+}
+
+div#modalOverlay div#modalContent div#loginForm div#loginFormReturn {
+	margin:10px 10%;
+	position:absolute;
+	top:0;
+	left:0;
+	width:80%;
+}
+
+div#modalOverlay div#modalContent div#loginForm div#loginFormReturn p {
+	font-size:22px;
+	line-height:24px;
+	text-align:center;
+	font-weight:700;
+	margin:0;
+	padding:10px;
 }
 
 div#modalOverlay div#modalContent input {
