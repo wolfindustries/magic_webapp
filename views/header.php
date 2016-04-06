@@ -13,8 +13,9 @@
 	<div id="modalOverlay">
 		<div id="modalContent">
 			<div id="loginForm">
+				<div class="close" targetclose="loginForm" alt="Close window" title="Click to close this window"></div>
+				<div id="loginFormReturn" class="hidden"><p>Success! Logging you in!</p></div>
 				<div class="halfWidth">
-					<div class="close" targetclose="loginForm" alt="Close window" title="Click to close this window"></div>
 					<h3>Sign Up</h3>
 					<form>
 						<input type="text" name="login_newUsername" placeholder="enter a username" />
