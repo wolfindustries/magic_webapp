@@ -41,19 +41,19 @@
 			<nav>
 				<ul>
 					<li><a href="">Home</a></li>
-					<li><a href="">Cards</a>
+					<li><a href="cards">Cards</a>
 						<ul>
-							<li><a href="">By Name</a></li>
-							<li><a href="">By Color</a></li>
-							<li><a href="">By Edition</a></li>
-							<li><a href="">By Cost</a></li>
+							<li><a href="cards">By Name</a></li>
+							<li><a href="cards">By Color</a></li>
+							<li><a href="cards">By Edition</a></li>
+							<li><a href="cards">By Cost</a></li>
 						</ul>
 					</li>
-					<li><a href="">System</a>
+					<li><a href="system">System</a>
 						<ul>
-							<li><a href="">Versions/Updates</a></li>
-							<li><a href="">Users</a></li>
-							<li><a href="">System</a></li>
+							<li><a href="version">Versions/Updates</a></li>
+							<li><a href="users">Users</a></li>
+							<li><a href="system">System</a></li>
 						</ul>
 					</li>
 					<li id="accountOptions">
