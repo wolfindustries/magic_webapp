@@ -33,16 +33,22 @@ button {
 	cursor:pointer;
 }
 
-button.close {
+div.close {
 	position:absolute;
-	top:5px;
-	right:5px;
-	width:30px;
-	height:30px;
+	top:10px;
+	right:10px;
+	width:16px;
+	height:16px;
 	text-align:center;
-	padding:0px !important;
-	background-color:none !important;
-	font-size:20px;
+	cursor:pointer;
+	padding:4px;
+	background:#ccc url("../img/x.svg") no-repeat center;
+	background-size:60%;
+	border-radius:3px;
+}
+
+div.close:hover {
+	background-color:#999;
 }
 
 div.halfWidth {
@@ -59,9 +65,14 @@ div#modalOverlay {
 	height:100%;
 	background-color:rgba(0,0,0,0.4);
 	z-index:100;
+	display:none;
 }
 
 div#modalOverlay div#modalContent {
+	display:none;
+}
+
+div#modalOverlay div#modalContent div#loginForm {
 	width:800px;
 	height:400px;
 	background-color:#eee;
